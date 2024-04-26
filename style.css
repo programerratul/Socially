@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("image/back-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 990px;
+    height: 90vh;
+}
+.h1{
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 110px;
+    animation-delay: 0.5s;
+}
+p{
+    margin-top: 20px;
+    animation-delay: 0.5s;
+}
+#women{
+    animation-delay: 1s;
+}
+.joinbtn{
+    padding: 5px 30px 5px 30px;
+    background: linear-gradient(#E55599,#D74CC1);
+    border-radius: 5px 5px 25px 5px;
+    animation-delay: 1s;
+}
+.anime{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+@keyframes moveup {
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
